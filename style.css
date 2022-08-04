@@ -37,3 +37,49 @@ ul
 	color: #E5E7EB;
 	padding: 24px 300px 24px 0;
 }
+
+
+.header-content
+{
+	display: flex;
+	background: #1F2937;
+	align-content: flex-end;
+	justify-content: space-around;
+}
+
+.main-content
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	flex-direction: column;
+}
+
+.main-text
+{
+	font-size: 48px;
+	color: #F9FAF8;
+	font-weight: bold;
+}
+
+.main-subtext
+{
+	font-size: 18px;
+	color: #E5E7EB;
+}
+
+.main-button
+{
+	background: #3882F6;
+	color: #F9FAF8;
+	border: 0px;
+	border-radius: 6px;
+	padding: 8px 32px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.main-image
+{
+	height: 300px;
+}
