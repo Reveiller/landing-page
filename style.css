@@ -6,3 +6,34 @@ body
 	margin: 0;
 	padding: 0;
 }
+
+.header
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #1F2937;
+}
+
+ul
+{
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.logo
+{
+	font-size: 24px;
+	color: #F9FAF8;
+	padding: 24px 0 24px 300px;
+}
+
+.links
+{
+	gap: 16px;
+	font-size: 18px;
+	color: #E5E7EB;
+	padding: 24px 300px 24px 0;
+}
