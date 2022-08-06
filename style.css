@@ -7,7 +7,7 @@ body
 	padding: 0;
 }
 
-.header
+.header-navbar
 {
 	display: flex;
 	justify-content: space-between;
@@ -27,7 +27,7 @@ ul
 {
 	font-size: 24px;
 	color: #F9FAF8;
-	padding: 24px 0 24px 300px;
+	padding: 24px 0 24px 420px;
 }
 
 .links
@@ -35,16 +35,15 @@ ul
 	gap: 16px;
 	font-size: 18px;
 	color: #E5E7EB;
-	padding: 24px 300px 24px 0;
+	padding: 24px 420px 24px 0;
 }
-
 
 .header-content
 {
 	display: flex;
 	background: #1F2937;
-	align-content: flex-end;
-	justify-content: space-around;
+	justify-content: space-between;
+	padding: 70px 0 100px 0;
 }
 
 .main-content
@@ -53,11 +52,13 @@ ul
 	justify-content: space-around;
 	align-items: flex-start;
 	flex-direction: column;
+	padding-left: 420px;
 }
 
 .main-text
 {
 	font-size: 48px;
+	margin-bottom: 0;
 	color: #F9FAF8;
 	font-weight: bold;
 }
@@ -65,7 +66,10 @@ ul
 .main-subtext
 {
 	font-size: 18px;
+	margin-top: 0;
+	margin-bottom: 0;
 	color: #E5E7EB;
+	width: 465px;
 }
 
 .main-button
@@ -81,5 +85,10 @@ ul
 
 .main-image
 {
-	height: 300px;
+	min-height: 250px;
+	min-width: 550px;
+	height: 250px;
+	padding-right: 420px;
+	padding-top: 50px;
+	align-self: center;
 }
