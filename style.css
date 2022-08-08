@@ -93,6 +93,11 @@ ul
 	align-self: center;
 }
 
+.info
+{
+	margin-bottom: 150px;
+}
+
 .title
 {
 	font-size: 36px;
@@ -128,4 +133,31 @@ ul
 	width: 170px;
 	font-size: 18px;
 	color: grey;
+}
+
+.quote
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: #E5E7EB;
+	padding: 100px 0;
+}
+
+.main-quote
+{
+	font-size: 36px;
+	color: #1F2937;
+	font-weight: 300;
+	width: 800px;
+	margin:0;
+}
+
+.credit
+{
+	margin: 0;
+	align-self: flex-end;
+	padding-right: 580px;
+	font-size: 24px;
+	font-weight: bold;
 }
