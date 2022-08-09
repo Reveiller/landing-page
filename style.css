@@ -213,3 +213,13 @@ ul
 	text-align: center;
 	margin-right: 60px;
 }
+
+.footer
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #1F2937;
+	color: #F9FAF8;
+	padding: 24px 0;
+}
